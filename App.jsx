@@ -30,17 +30,17 @@ const App = () => {
     });
   }, []);
 
-  const handleDateChange = (date) => {
-    console.log("Selected Date:", date);
-  };
+  // const handleDateChange = (date) => {
+  //   console.log("Selected Date:", date);
+  // };
 
-  const handleTimeChange = (time) => {
-    console.log("Selected Time:", time);
-  };
+  // const handleTimeChange = (time) => {
+  //   console.log("Selected Time:", time);
+  // };
 
-  const handleTimezoneChange = (timezone) => {
-    console.log("Selected Timezone:", timezone);
-  };
+  // const handleTimezoneChange = (timezone) => {
+  //   console.log("Selected Timezone:", timezone);
+  // };
 
   return (
     <div>
