@@ -4,7 +4,6 @@ import { Col } from "antd";
 import { PlatformProducts } from "./PlatformsProducts";
 import { PlatformSection } from "../Style";
 
-
 const Platforms = () => {
   return (
     <PlatformSection>

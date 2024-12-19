@@ -8,10 +8,8 @@ const FourthSecHead = styled.div`
   /* margin-top: 350px; */
   /* height: 100vh; */
 
-
   @media (max-width: 768px) {
-    margin-top:20px;
-
+    margin-top: 20px;
   }
 
   .collapse_head {
@@ -67,9 +65,8 @@ const FourthSecHead = styled.div`
     color: black;
 
     @media (max-width: 768px) {
-  font-size: 32px;
-   
-  }
+      font-size: 32px;
+    }
   }
 
   .image-container {
@@ -95,11 +92,8 @@ const CustomPanelHeader = styled.div`
   font-style: normal;
   cursor: pointer;
 
-  
-
   @media (max-width: 768px) {
-  font-size: 21px;
-   
+    font-size: 21px;
   }
 `;
 
@@ -136,7 +130,7 @@ const FourthSection = () => {
         mode offer?
       </h1>
       <CustomRow space={[24, 24]} style={{ marginTop: "50px" }}>
-        {!isMobileView && ( 
+        {!isMobileView && (
           <Col span={24} md={12}>
             <div className="image-container">
               {activeKey && (
@@ -168,9 +162,8 @@ const FourthSection = () => {
                 >
                   {isMobileView ? (
                     <>
-            <div className="image-container">
-
-                      <img src={item.img} alt="Loading...." />
+                      <div className="image-container">
+                        <img src={item.img} alt="Loading...." />
                       </div>
                       <p className="para_content">{item.content}</p>
                       <span className="tryforfree">
